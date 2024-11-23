@@ -1,0 +1,44 @@
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .kanban-column {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .kanban-card {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .controls {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
